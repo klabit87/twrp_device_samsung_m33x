@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_m33x.mk
+    $(LOCAL_DIR)/aosp_m33x.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_m33x-user \
-    omni_m33x-userdebug \
-    omni_m33x-eng
+    aosp_m33x-user \
+    aosp_m33x-userdebug \
+    aosp_m33x-eng
