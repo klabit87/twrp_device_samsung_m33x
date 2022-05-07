@@ -13,13 +13,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Inherit from m33x device
 $(call inherit-product, device/samsung/m33x/device.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
-$(call inherit-product, vendor/omni/config/gsm.mk)
+# Inherit some common AOSP stuff.
+$(call inherit-product, vendor/aosp/config/common.mk)
+$(call inherit-product, vendor/aosp/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := m33x
-PRODUCT_NAME := omni_m33x
+PRODUCT_NAME := aosp_m33x
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-M336BU
 PRODUCT_MANUFACTURER := samsung
