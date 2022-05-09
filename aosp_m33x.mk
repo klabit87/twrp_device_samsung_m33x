@@ -15,7 +15,7 @@ $(call inherit-product, device/samsung/m33x/device.mk)
 
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
-$(call inherit-product, vendor/twrp/config/gsm.mk)
+# $(call inherit-product, vendor/twrp/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := m33x
